@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Streak Vault</title>
+  <meta name="description" content="Privacy policy for Streak Vault, the calm daily brain-teaser by W3 Applications.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/app-icon.png" alt="" width="32" height="32">
+      Streak Vault
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#supporter" class="hide-sm">Supporter</a>
+      <a href="mailto:ahaboubi@w3applications.com">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main class="doc">
+  <h1>Privacy Policy</h1>
+  <p class="doc-date">Effective date: August 11, 2026</p>
+
+  <p>Streak Vault is made by W3 Applications ("we", "us"). This policy explains what information the Streak Vault app collects, why, and what happens to it. We have tried to keep it in plain language, because the honest summary is short: <strong>Streak Vault has no accounts, doesn't know who you are, and doesn't want to.</strong></p>
+
+  <h2>No accounts, no sign-up</h2>
+  <p>Streak Vault never asks for your name, email address, phone number, or any login. When you first open the app, it generates a random player identifier on your device. This identifier is not derived from anything about you or your device — it is simply a random number, and it is what lets your progress sync and restore. On iOS it is kept in the system Keychain so your streak survives if you delete and reinstall the app.</p>
+
+  <h2>What we collect</h2>
+  <p>The app sends the following to our servers, tied only to your random player identifier:</p>
+  <ul>
+    <li><strong>Your game save.</strong> Daily vault progress, puzzle results, your streak calendar, coin balance and transactions, and your in-app settings. This is what makes cloud backup and restore work.</li>
+    <li><strong>Basic app info.</strong> The app version and platform (iOS or Android), used for compatibility and support.</li>
+    <li><strong>Gameplay analytics.</strong> Anonymous events such as "vault opened", "puzzle completed", or "hint used", each carrying the player identifier, a session identifier, the time, app version, and platform. We use these to understand how the game is played and to balance it. <strong>Raw analytics events are automatically deleted after 30 days;</strong> only anonymous aggregate statistics (for example, "how many puzzles were completed on a given day") are kept longer.</li>
+    <li><strong>Purchase records.</strong> If you buy the Supporter Pack, we receive a receipt event from our payment partner (see below) so we can grant and restore what you bought. We never see your payment card or billing details — payment is handled entirely by Apple or Google.</li>
+    <li><strong>Crash reports.</strong> If the app crashes, a technical report (stack trace, device model, OS version) is sent via Firebase Crashlytics so we can fix the bug. Crash reports are not tied to your gameplay data.</li>
+  </ul>
+
+  <h2>What we don't collect</h2>
+  <ul>
+    <li>No name, email, phone number, or contacts.</li>
+    <li>No location data.</li>
+    <li>No advertising identifier for tracking: the app does not use Apple's App Tracking Transparency framework because it does not track you, and all ad requests are explicitly flagged as non-personalized.</li>
+    <li>No data from other apps or websites.</li>
+  </ul>
+
+  <h2>Ads</h2>
+  <p>Streak Vault shows <strong>rewarded ads only</strong> — short videos you can choose to watch in exchange for an in-game bonus (an extra hint, a bonus puzzle, a discount, or doubled coins). There are no banner ads and no interstitials, and you can play the entire game without ever watching one. Ads are served by Google AdMob in <strong>non-personalized mode</strong>, meaning they are selected from context rather than from a profile of you. Where the law requires it, a consent form (Google's User Messaging Platform) is shown before any ads load. AdMob may process device information to serve and measure ads; see <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.</p>
+
+  <h2>Purchases</h2>
+  <p>The Supporter Pack is a one-time purchase processed by the App Store or Google Play. We use <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat</a> to validate receipts and manage entitlements, so your purchase can be restored on a new device. RevenueCat and our servers see the transaction (product, time, store receipt) linked to your random player identifier — never your payment details or store account identity.</p>
+
+  <h2>Where your data lives</h2>
+  <p>Our servers run on Google Cloud, and game data is stored in MongoDB Atlas, in United States data centers. Data is sent over encrypted connections (HTTPS).</p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li><strong>Game saves</strong> are kept for as long as they're needed to provide cloud backup and restore.</li>
+    <li><strong>Raw analytics events</strong> are deleted automatically after 30 days.</li>
+    <li><strong>Purchase records</strong> are kept as long as needed to honor your purchase and meet accounting obligations.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>Because there are no accounts, your data is only reachable through the random player identifier on your device. If you want your server-side data deleted, email us at <a href="mailto:ahaboubi@w3applications.com">ahaboubi@w3applications.com</a> from within reach of the device (the app's settings screen shows your player identifier so you can include it), and we will delete the game save, analytics, and progress associated with it. Note that deleting this data also deletes your streak and coin balance permanently.</p>
+
+  <h2>Children</h2>
+  <p>Streak Vault is a puzzle game suitable for general audiences. It has no chat, no social features, no accounts, and no personalized advertising, and we do not knowingly collect personal information from anyone, children included. If you believe a child has provided us personal information in some way, contact us and we will delete it.</p>
+
+  <h2>Third-party services</h2>
+  <p>The app uses these service providers, each only for the purpose described:</p>
+  <ul>
+    <li><strong>Google AdMob</strong> — opt-in rewarded ads, non-personalized. (<a href="https://policies.google.com/privacy" rel="noopener">policy</a>)</li>
+    <li><strong>Google UMP</strong> — ad consent form where required by law.</li>
+    <li><strong>Firebase Crashlytics</strong> — crash reporting. (<a href="https://firebase.google.com/support/privacy" rel="noopener">policy</a>)</li>
+    <li><strong>RevenueCat</strong> — purchase validation and restore. (<a href="https://www.revenuecat.com/privacy" rel="noopener">policy</a>)</li>
+    <li><strong>Google Cloud &amp; MongoDB Atlas</strong> — server hosting and data storage.</li>
+  </ul>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change this policy, we will update this page and the effective date above. Meaningful changes (for example, collecting a new category of data) will also be called out in the app's release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy in Streak Vault? Email <a href="mailto:ahaboubi@w3applications.com">ahaboubi@w3applications.com</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/app-icon.png" alt="" width="44" height="44">
+    <p class="foot-tag">Three puzzles. One vault a day.</p>
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:ahaboubi@w3applications.com">Contact</a>
+    </div>
+    <p class="copyright">© 2026 W3 Applications. Streak Vault is a trademark of W3 Applications.</p>
+  </div>
+</footer>
+
+</body>
+</html>

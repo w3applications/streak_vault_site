@@ -4,6 +4,7 @@ Static marketing site for [Streak Vault](https://streakvault.com), the calm dail
 
 - `index.html` — marketing landing page
 - `privacy.html` — privacy policy
+- `terms.html` — terms of service
 - `styles.css` — shared styles (palette mirrors the app's Midnight theme)
 - `assets/` — app icon renditions used for hero, favicon, and Open Graph
 

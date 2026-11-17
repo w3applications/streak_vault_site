@@ -6,24 +6,50 @@
   <title>Streak Vault — Three puzzles. One vault a day.</title>
   <meta name="description" content="A calm daily brain-teaser. Open the daily vault, solve three small puzzles, and keep your streak alive. Same vault for everyone, everywhere — fully playable offline.">
   <link rel="canonical" href="https://streakvault.com/">
+  <meta name="theme-color" content="#0a0c1a">
+  <meta name="apple-itunes-app" content="app-id=6798832109">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:site_name" content="Streak Vault">
   <meta property="og:title" content="Streak Vault — Three puzzles. One vault a day.">
   <meta property="og:description" content="A calm daily brain-teaser. Open the daily vault, solve three small puzzles, and keep your streak alive.">
-  <meta property="og:image" content="https://streakvault.com/assets/app-icon.png">
+  <meta property="og:image" content="https://streakvault.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Streak Vault app icon beside the words: Three puzzles. One vault a day.">
   <meta property="og:url" content="https://streakvault.com/">
   <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Streak Vault",
+    "alternateName": "Streak Vault: Daily Puzzles",
+    "description": "A calm daily brain-teaser. Open the daily vault, solve three small puzzles, and keep your streak alive.",
+    "url": "https://streakvault.com/",
+    "image": "https://streakvault.com/assets/app-icon.png",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "iOS, Android",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Organization", "name": "W3 Applications" },
+    "sameAs": [
+      "https://apps.apple.com/app/streak-vault-daily-puzzles/id6798832109",
+      "https://play.google.com/store/apps/details?id=com.w3applications.streak_vault"
+    ]
+  }
+  </script>
 </head>
 <body>
 
-<nav class="nav">
+<nav class="nav" aria-label="Main">
   <div class="wrap nav-inner">
-    <a href="#" class="nav-brand">
-      <img src="assets/app-icon.png" alt="" width="32" height="32">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/app-icon-264.webp" alt="" width="32" height="32">
       Streak Vault
     </a>
     <div class="nav-links">
@@ -31,19 +57,21 @@
       <a href="#streak" class="hide-sm">Streak</a>
       <a href="#features" class="hide-sm">Features</a>
       <a href="#supporter">Supporter</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="#faq">FAQ</a>
     </div>
   </div>
 </nav>
 
+<main>
+
 <header class="hero">
   <div class="wrap">
-    <img class="hero-icon" src="assets/app-icon.png" alt="Streak Vault app icon" width="132" height="132">
+    <img class="hero-icon" src="assets/app-icon-264.webp" alt="Streak Vault app icon" width="132" height="132">
     <div class="eyebrow">A calm daily brain-teaser</div>
     <h1>Three puzzles.<br>One vault a day.</h1>
     <p class="sub">Every day at midnight a new vault appears, holding three small puzzles — the same vault for everyone, everywhere. Solve them, grow your streak, and keep the flame alive.</p>
     <div class="badges">
-      <a class="badge" href="https://apps.apple.com/ca/app/streak-vault-daily-puzzles/id6798832109" target="_blank" rel="noopener">
+      <a class="badge" href="https://apps.apple.com/app/streak-vault-daily-puzzles/id6798832109" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 12.54c-.03-2.6 2.12-3.85 2.22-3.91-1.21-1.77-3.09-2.01-3.76-2.04-1.6-.16-3.12.94-3.93.94-.81 0-2.06-.92-3.39-.89-1.74.03-3.35 1.01-4.25 2.57-1.81 3.14-.46 7.79 1.3 10.34.86 1.25 1.89 2.65 3.24 2.6 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.38.81 1.4-.02 2.29-1.27 3.15-2.53.99-1.45 1.4-2.85 1.42-2.92-.03-.01-2.72-1.04-2.74-4.13zM14.46 4.9c.72-.87 1.2-2.08 1.07-3.29-1.03.04-2.28.69-3.02 1.56-.66.77-1.24 2-1.09 3.18 1.15.09 2.33-.58 3.04-1.45z"/></svg>
         <span><span class="badge-top">Download on the</span><span class="badge-bottom">App Store</span></span>
       </a>
@@ -52,28 +80,48 @@
         <span><span class="badge-top">Get it on</span><span class="badge-bottom">Google Play</span></span>
       </a>
     </div>
+    <p class="hero-note">Free on iPhone, iPad, and Android. No account needed.</p>
   </div>
 </header>
 
-<div class="ritual">
+<section class="ritual" aria-labelledby="ritual-title">
+  <h2 id="ritual-title" class="sr-only">How it works</h2>
   <div class="wrap ritual-steps">
     <div class="ritual-step">
-      <span class="num">1</span>
+      <span class="num" aria-hidden="true">1</span>
       <h3>Open the vault</h3>
       <p>A new vault seals itself at midnight and a fresh one appears — three puzzles, easy to hard, identical for every player on Earth.</p>
     </div>
     <div class="ritual-step">
-      <span class="num">2</span>
+      <span class="num" aria-hidden="true">2</span>
       <h3>Solve three puzzles</h3>
       <p>Connect the switchboard, align the rings, trace the path. A few calm minutes — no timers ticking at you.</p>
     </div>
     <div class="ritual-step">
-      <span class="num">3</span>
+      <span class="num" aria-hidden="true">3</span>
       <h3>Keep the streak alive</h3>
       <p>Complete the vault to grow your streak, and earn coins for hints and freezes that quietly cover a missed day.</p>
     </div>
   </div>
-</div>
+</section>
+
+<section id="screens" class="screens">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">A look inside</div>
+      <h2>A few calm minutes, every day</h2>
+    </div>
+  </div>
+  <ul class="shots" tabindex="0" aria-label="App screenshots — scroll sideways for more">
+    <li><img src="assets/screens/switchboard.webp" width="600" height="1305" alt="Switchboard puzzle mid-solve, captioned “3 fresh puzzles every day”"></li>
+    <li><img src="assets/screens/rings.webp" width="600" height="1305" alt="Rings puzzle, captioned “Spin the rings”"></li>
+    <li><img src="assets/screens/paths.webp" width="600" height="1305" alt="Paths puzzle, captioned “Trace the path”"></li>
+    <li><img src="assets/screens/vault-complete.webp" width="600" height="1305" loading="lazy" alt="Vault complete screen showing coins earned and a 14-day streak, captioned “Seal the vault, grow your streak”"></li>
+    <li><img src="assets/screens/calendar.webp" width="600" height="1305" loading="lazy" alt="Streak calendar with fourteen completed days, captioned “Don't break the chain”"></li>
+    <li><img src="assets/screens/share.webp" width="600" height="1305" loading="lazy" alt="Home screen after a completed vault with a Share result button, captioned “Share your day”"></li>
+    <li><img src="assets/screens/themes.webp" width="600" height="1305" loading="lazy" alt="Home screen in the Dawn theme, captioned “Make it yours”"></li>
+  </ul>
+</section>
 
 <section id="puzzles">
   <div class="wrap">
@@ -153,31 +201,35 @@
 <section id="streak" class="streak">
   <div class="wrap streak-cols">
     <div class="streak-copy">
-      <div class="kicker" style="font-size:13px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">The streak</div>
+      <div class="kicker">The streak</div>
       <h2>Miss a day? The vault forgives.</h2>
       <p>Your streak grows every day you complete the vault — and Streak Vault is built so one bad day never erases months of effort.</p>
       <ul class="streak-list">
         <li>
-          <span class="dot">🧊</span>
+          <span class="dot" aria-hidden="true">🧊</span>
           <span><b>Streak freezes</b><span class="desc">Hold up to two. A freeze quietly covers a missed day so your streak survives without you lifting a finger.</span></span>
         </li>
         <li>
-          <span class="dot">🔧</span>
+          <span class="dot" aria-hidden="true">🔧</span>
           <span><b>Repair yesterday</b><span class="desc">Missed yesterday's vault? Repair it with coins within 48 hours and the chain stays whole.</span></span>
         </li>
         <li>
-          <span class="dot">🏆</span>
-          <span><b>Achievements</b><span class="desc">Keeper of the Flame, Vault Cracker, No Help Needed — bronze, silver, and gold tiers with coin rewards.</span></span>
+          <span class="dot" aria-hidden="true">🔥</span>
+          <span><b>Streak milestones</b><span class="desc">30, 50, 100 days and beyond each pay a coin bonus, and your flame changes color as it grows: Blaze, then Blue flame, then Starfire.</span></span>
         </li>
         <li>
-          <span class="dot">📅</span>
-          <span><b>The archive</b><span class="desc">Tap any past day on the calendar to replay its vault, just for the joy of it.</span></span>
+          <span class="dot" aria-hidden="true">🏆</span>
+          <span><b>Achievements with no ceiling</b><span class="desc">Keeper of the Flame, Vault Cracker, Not a Move Wasted, Grandmaster — climb from bronze through gold, platinum, and diamond, then on into endless Mastery levels, with coin rewards at every step.</span></span>
+        </li>
+        <li>
+          <span class="dot" aria-hidden="true">📅</span>
+          <span><b>The archive</b><span class="desc">Tap a past day on the calendar to replay its vault — the last 7 days are free. Replays never touch your streak; they're just for the joy of it.</span></span>
         </li>
       </ul>
     </div>
     <div class="calendar-card" aria-hidden="true">
       <div class="cal-head">
-        <span class="month">August</span>
+        <span class="month">Your streak</span>
         <span class="streak-count">🔥 12-day streak</span>
       </div>
       <div class="cal-grid">
@@ -189,6 +241,34 @@
       <div class="cal-legend">
         <span class="chip"><span class="swatch done"></span>Vault completed</span>
         <span class="chip"><span class="swatch frozen"></span>Freeze used</span>
+        <span class="chip next">Next milestone: 30 days</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="master" class="master">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">New in 1.4</div>
+      <h2>The Master Vault</h2>
+      <p>For when the daily three aren't enough. Once your best streak reaches 30 days, the Master Vault opens: one optional expert puzzle a day, on the biggest boards in the game.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">🔓</div>
+        <h3>Earned, then yours</h3>
+        <p>It unlocks on your best streak, not your current one — so a broken streak never takes it away again.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">🛡️</div>
+        <h3>Never risks your streak</h3>
+        <p>The Master Vault is entirely optional. Skip it whenever you like — your streak only ever depends on the daily three.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">💎</div>
+        <h3>Flawless pays extra</h3>
+        <p>Crack it flawlessly for bonus coins and a diamond on your shared result.</p>
       </div>
     </div>
   </div>
@@ -202,32 +282,47 @@
     </div>
     <div class="features-grid">
       <div class="feature-card">
-        <div class="icon">✈️</div>
+        <div class="icon" aria-hidden="true">✈️</div>
         <h3>Fully playable offline</h3>
         <p>No connection, no problem. The vault opens on a plane, in a tunnel, anywhere — and syncs quietly when you're back.</p>
       </div>
       <div class="feature-card">
-        <div class="icon">☁️</div>
+        <div class="icon" aria-hidden="true">☁️</div>
         <h3>Your streak is safe</h3>
-        <p>Reinstall the app or switch phones and your streak, stats, and coins come back exactly as you left them — no account or sign-up required.</p>
+        <p>Your progress backs up automatically — no account or sign-up required. On iPhone and iPad, reinstalling the app restores your streak, stats, and coins exactly as you left them.</p>
       </div>
       <div class="feature-card">
-        <div class="icon">🌍</div>
+        <div class="icon" aria-hidden="true">🌍</div>
         <h3>Same vault for everyone</h3>
         <p>The whole world solves the same three puzzles each day. Compare notes with friends — no spoilers, no head starts.</p>
       </div>
       <div class="feature-card">
-        <div class="icon">🪙</div>
+        <div class="icon" aria-hidden="true">💬</div>
+        <h3>Share your day</h3>
+        <p>Send friends a spoiler-free result: your locks, your moves against par, your streak. See who keeps the chain going longest.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">🔔</div>
+        <h3>Gentle reminders</h3>
+        <p>Turn on an optional daily reminder, plus a heads-up before your streak slips, and you'll never miss a vault by accident.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">🎁</div>
+        <h3>Start strong</h3>
+        <p>New players get a welcome gift — coins and a streak freeze — and a welcome week: seal your first seven vaults for rising rewards.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon" aria-hidden="true">🪙</div>
         <h3>A fair coin economy</h3>
         <p>Earn coins every day just by playing — bonus coins for solving without hints. Spend them on hints, freezes, repairs, and cosmetics.</p>
       </div>
       <div class="feature-card">
-        <div class="icon">🎨</div>
+        <div class="icon" aria-hidden="true">🎨</div>
         <h3>Make it yours</h3>
         <p>Unlock themes, vault skins, and tile sets with the coins you earn. Every cosmetic is earnable through play.</p>
       </div>
       <div class="feature-card">
-        <div class="icon">🧘</div>
+        <div class="icon" aria-hidden="true">🧘</div>
         <h3>Calm by design</h3>
         <p>No timers ticking at you, no lives to lose, no interruptions. Ads are opt-in only — watch one if you want a bonus, or never see one at all.</p>
       </div>
@@ -250,38 +345,90 @@
       <p>Streak Vault is free to play, forever. If it becomes part of your day, the Supporter Pack is a single purchase that says thanks — and unlocks a little gold of its own.</p>
       <div class="supporter-perks">
         <div class="perk">
-          <div class="perk-icon">🪙</div>
+          <div class="perk-icon" aria-hidden="true">🪙</div>
           <b>2,000 coins</b>
           <span>A one-time trove for hints, freezes, and cosmetics.</span>
         </div>
         <div class="perk">
-          <div class="perk-icon">✦</div>
+          <div class="perk-icon" aria-hidden="true">✦</div>
           <b>The Aurum theme</b>
           <span>Gilded black-and-gold, richer than Midnight. Supporter-exclusive.</span>
         </div>
         <div class="perk">
-          <div class="perk-icon">🎖️</div>
+          <div class="perk-icon" aria-hidden="true">🎖️</div>
           <b>Supporter badge</b>
           <span>A quiet mark of thanks on your profile.</span>
         </div>
         <div class="perk">
-          <div class="perk-icon">🗝️</div>
+          <div class="perk-icon" aria-hidden="true">🗝️</div>
           <b>The full archive</b>
           <span>Every vault ever sealed, yours to replay. Free players get the last 7 days.</span>
         </div>
       </div>
-      <p class="supporter-note">Supporters unlock every vault ever sealed.</p>
+      <p class="supporter-note">It's a thank-you, not a paywall.</p>
     </div>
   </div>
 </section>
 
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Questions</div>
+      <h2>Good to know</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Is Streak Vault free?</summary>
+        <p>Yes. The daily vault, streaks, achievements, and the shop are all free. There is one optional one-time purchase, the Supporter Pack, and no subscription.</p>
+      </details>
+      <details>
+        <summary>Do I need an account?</summary>
+        <p>No. There's no sign-up and no login. Your progress backs up automatically, and on iPhone and iPad a reinstall restores your streak, stats, and coins exactly.</p>
+      </details>
+      <details>
+        <summary>What happens if I miss a day?</summary>
+        <p>If you're holding a streak freeze, it covers the missed day automatically — you can hold up to two. If you have none, you can repair yesterday's vault with coins the next day. After that, the streak resets.</p>
+      </details>
+      <details>
+        <summary>What is the Master Vault?</summary>
+        <p>An optional expert puzzle that appears every day once your best streak reaches 30 days. It uses the biggest boards in the game, never affects your streak, and pays bonus coins for a flawless solve.</p>
+      </details>
+      <details>
+        <summary>Will I see ads?</summary>
+        <p>Only if you choose to. The only ads are short videos you can opt to watch for a bonus — an extra hint, a bonus puzzle, or double coins. There are no banners and no pop-up ads.</p>
+      </details>
+      <details>
+        <summary>Does it work offline?</summary>
+        <p>Yes. The daily vault is fully playable without a connection, and your progress syncs quietly the next time you're online.</p>
+      </details>
+      <details>
+        <summary>When does the new vault open?</summary>
+        <p>At midnight in your device's local time. Everyone gets the same three puzzles for that date.</p>
+      </details>
+      <details>
+        <summary>Which devices does it run on?</summary>
+        <p>iPhone and iPad from the App Store, and Android from Google Play.</p>
+      </details>
+      <details>
+        <summary>How do I delete my data?</summary>
+        <p>See <a href="privacy.html#deleting-your-data">Deleting your data</a> in the Privacy Policy.</p>
+      </details>
+    </div>
+    <p class="faq-contact">Something else? Email <a href="mailto:games@w3applications.com">games@w3applications.com</a> and we'll get back to you.</p>
+  </div>
+</section>
+
+</main>
+
 <footer>
   <div class="wrap">
-    <img src="assets/app-icon.png" alt="" width="44" height="44">
+    <img src="assets/app-icon-264.webp" alt="" width="44" height="44">
     <p class="foot-tag">Three puzzles. One vault a day.</p>
     <div class="foot-links">
+      <a href="index.html">Home</a>
       <a href="#puzzles">Puzzles</a>
       <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
       <a href="mailto:games@w3applications.com">Contact</a>
